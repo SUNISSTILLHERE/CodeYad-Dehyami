@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject</title>
+    <style>
+        .mainbox {
+            width: 350px;
+            height: 600px;
+            border: 1px solid red;
+            margin: 0 auto;
+            border-radius: 15px;
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/img.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: scroll;
+            
+
+        }
+
+        .chatitem {
+            width: 200px;
+            margin: 15px;
+            border-radius: 5px;
+            background-color: aquamarine;
+            position: relative;
+        }
+
+        .chatitem p {
+            padding: 5px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: medium;
+        }
+
+        .chatitem::before {
+            content: '';
+            background-color: aquamarine;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            transform: rotate(20deg) skew(120deg);
+            bottom: -2px;
+            left: 2px;
+        }
+        .chatitem2{
+            width: 200px;
+            margin: 15px;
+            border-radius: 5px;
+            background-color: rgb(5, 87, 30);
+            position: relative;
+            justify-self: end;
+           
+        }
+        .chatitem2 p{
+            padding: 5px;
+            color: white;
+           font-size: medium;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+
+        .chatitem2::after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: rgb(5, 87, 30);
+            position: absolute;
+            transform: rotate(45deg) skew(130deg);
+            right: 0px;
+            top: -1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="chatitem">
+            <p>
+                Hello!
+            </p>
+        </div>
+        <div class="chatitem">
+            <p>
+                How may i assist you? </p>
+        </div>
+
+        <div class="chatitem2">
+            <p>
+                Hi! I'm facing issues with my laptop. <br>
+                Im exhausted tbh!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

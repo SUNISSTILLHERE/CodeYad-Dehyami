@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+    <style>
+        p {
+            border: 1px solid blue;
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        a {
+            border: 1px solid red;
+            width: 300px;
+            /* First way to center <a> tag is below */
+            /* display: block;
+            text-align: center; */
+            /* margin: 0 auto; */
+
+            /* and this is 2nd way  */
+            display: flex; justify-content: center; justify-self: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        This is test text.
+    </p>
+    <hr>
+    <a href="#">Test text</a>
+</body>
+
+</html>

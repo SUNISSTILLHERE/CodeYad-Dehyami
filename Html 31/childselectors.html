@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Childselectors</title>
+    <style>
+        div {
+            border: 1px solid red;
+        }
+
+        p {
+            border: 1px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div p {
+            color: red;
+        }
+
+        div>p {
+            color: green;
+        }
+
+        p::first-line {
+            color: blueviolet;
+        }
+
+        p::first-letter {
+            font-size: x-large;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: none;
+            transition: all ease 1s;
+
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            opacity: 0.5;
+        }
+        a:visited{
+            color: red;
+        }
+        a:active{
+            color: aqua;
+        }
+        a{
+            transition: all ease 1s;
+        }
+        a:hover{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <footer>
+            <p>this is test text</p>
+            <p>this is test text</p>
+        </footer>
+        <p>this is test text</p>
+        <p>this is test text</p>
+    </div>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe natus vitae eos, laboriosam soluta iste
+        reprehenderit optio nam facilis. Obcaecati, beatae aut deleniti repellendus praesentium, dolores, dolorum enim
+        harum nesciunt nulla architecto corrupti tempora commodi nemo iure itaque amet magnam fugiat officia ad a quae
+        atque placeat impedit. Velit, architecto?</p>
+    <hr>
+    <div class="box"></div>
+    <hr>
+    <a href="https://zoomg.ir">Zoomg</a>
+</body>
+
+
+</html>
