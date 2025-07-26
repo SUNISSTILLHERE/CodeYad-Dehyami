@@ -7,7 +7,7 @@
     .header {
         width: 1vm;
         height: 30vh;
-        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(./Assets/img/banner.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(./Assets/img/banner.jpg);
         position: relative;
         border-radius: 5px;
         position: sticky;
@@ -124,7 +124,7 @@
         float: left;
         margin-top: 10px;
         position: relative;
-        
+
     }
 
     .frame1content {
@@ -144,7 +144,7 @@
 
 
 
-        .frame2 {
+    .frame2 {
         width: 25%;
         height: 30vh;
         margin: 40PX;
@@ -152,7 +152,7 @@
         float: left;
         margin-top: 10px;
         position: relative;
-        
+
     }
 
     .frame2content {
@@ -170,8 +170,8 @@
         position: absolute;
     }
 
-    
-         .frame3 {
+
+    .frame3 {
         width: 25%;
         height: 30vh;
         margin: 40PX;
@@ -179,7 +179,7 @@
         float: left;
         margin-top: 10px;
         position: relative;
-        
+
     }
 
     .frame3content {
@@ -197,4 +197,205 @@
         position: absolute;
     }
 
+    .frame {
+        transition: all ease 0.2s;
+    }
+
+    .frame:hover {
+        transform: scale(1.05);
+    }
+
+    .row21 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row21content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/re.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row21title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row22 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row22content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/gta.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row22title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row23 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row23content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/android.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row23title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row31 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row31content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/metro.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row31title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row32 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row32content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/battlefield.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row32title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row33 {
+        width: 25%;
+        height: 30vh;
+        margin: 40PX;
+        border-radius: 10px;
+        float: left;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .row33content {
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        background-image: url(./Assets/img/fifa.webp);
+        background-size: contain;
+        box-shadow: 5px 10px 10px 0px;
+    }
+
+    .row33title {
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+    }
+
+    .row {
+        transition: all ease 0.2s;
+    }
+
+    .row:hover {
+        transform: scale(1.05);
+    }
+
+    .fa-reddit {
+        background: #ff5700;
+        color: white;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fa {
+        
+        font-size: 30px;
+        width: 80px;
+        text-align: center;
+        padding-top: 30px;
+        text-decoration: none;
+        border-radius: 30px;
+        margin: 10px;
+        float: right;
+        
+        
+        
     
+    }
