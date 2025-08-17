@@ -1,12 +1,14 @@
+html { scroll-behavior: smooth; }
+
 .header {
-    z-index: 1;
+    z-index: 999;
     width: 100vw;
     height: 19.5vh;
     background-color: rgb(176, 247, 247);
     border-radius: 5px;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,6 +154,14 @@ li {
     margin-left: 0;
 }
 
+.info{
+    width: 30vw;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
 h2 {
     display: block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -167,6 +177,11 @@ h3 {
     padding: 20px;
 
     margin: 0;
+}
+
+h4{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
