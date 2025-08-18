@@ -56,7 +56,7 @@ body {
 }
 
 .container {
-    padding: 2rem;
+    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./Assets/img/banner.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -73,8 +73,8 @@ body {
 .item {
     position: relative;
     width: 30%;
-    padding-bottom: 20rem;
-    margin: 2rem;
+    height: 20rem;
+    margin: 3rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ body {
 p {
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 20%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     font-size: 3rem;
@@ -137,14 +137,10 @@ p {
 
 .footer {
     height: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position: static;
+    bottom: 0;
     justify-content: center;
     background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 0px;
     font-size: 14px;
 }
 
@@ -153,21 +149,118 @@ p {
     color: #c9c5c5;
     font-size: xxx-large;
     margin-right: 2rem;
-    margin-top: 80%;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.social-icons p {
-    padding: 0;
+
+h4 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #c9c5c5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    padding-bottom: 0;
     margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: large;
 }
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* حالت تبلت */
+@media (max-width: 1024px) {
+  .item {
+    width: 45%;
+    margin: 1rem;
+    height: 15rem;
+  }
+  p {
+    font-size: 2rem;
+    left: 20%;
+  }
+}
+
+/* حالت موبایل */
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar a {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    width: 90%;
+    margin: 1rem 0;
+    height: 12rem;
+  }
+  p {
+    font-size: 1.8rem;
+    left: 10%;
+    top: 35%;
+    text-align: center;
+  }
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* حالت موبایل کوچک */
+@media (max-width: 480px) {
+  p {
+    font-size: 1.4rem;
+    left: 0;
+    width: 100%;
+  }
+  .item {
+    height: 10rem;
+  }
+}
