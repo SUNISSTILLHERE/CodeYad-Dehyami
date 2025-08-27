@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 4.5rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
+  padding-left: 5rem;
+}
+.fa {
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 30rem;
+}
+.navbar a {
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  transition: all ease 0.2s;
+  margin: 2rem;
+  font-weight: 600;
+  align-items: center;
+}
+.navbar a:hover {
+  color: rgb(7, 141, 7);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(./Assets/Main.jpg);
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 7rem;
+  position: absolute;
+}
+
+.main h2 {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin: 1rem;
+  text-shadow: 10px 5px 10px black;
+  font-weight: 700;
+}
+
+.main h3 {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+  text-shadow: 10px 5px 10px black;
+}
+
+.main h4 {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: underline;
+  margin: 1rem;
+  text-shadow: 10px 5px 10px black;
+  padding: 0px;
+}
+
+a {
+  padding: 0;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 238, 230);
+  width: 100%;
+  height: 50vh;
+}
+
+.ad h3 {
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  font-size: 2rem;
+}
+
+.ad h4 {
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+.fab {
+  color: black;
+  font-size: 3rem;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+section {
+  background-image: url(./Assets/banner.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 25rem;
+  position: relative;
+}
+
+.cherry {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.cherrybottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1rem;
+}
+.cherrybottom h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: auto;
+}
+.cherrybottom nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cherrybottom nav a {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 34rem;
+}
+
+.footercontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  width: auto;
+  height: 65%;
+  justify-content: space-between;
+  margin: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.box1 .inner {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  font-size: xx-large;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+ul {
+  color: rgb(104, 107, 110);
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+ul li a {
+  color: rgb(225, 227, 230);
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+ul li a:hover {
+  color: rgb(14, 138, 14);
+}
+
+.box6 .fa {
+  margin: 0.5rem;
+}
+
+
+
+
+
+
